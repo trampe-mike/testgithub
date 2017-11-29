@@ -1,0 +1,28 @@
+{
+   "HTTP_HOST":"http://pundcrm-25.labsad.redknee.com:82",
+   "SUPER_ADMIN":"super.admin@redknee.com",
+   "SUPER_ADMIN_PASS":"Password1@",
+   "LOGIN_PAGE":{
+      "redirectionUrl":"/login",
+      "header":"CORPORATE PORTAL",
+      "errormessage":{
+         "login_no_username":"Username is empty",
+         "login_no_password":"Password is empty",
+         "login_invalid":"Invalid username/password"
+      }
+   },
+   "FORGETPASSWORD_PAGE":{
+      "redirectionUrl":"/forgot-password",
+      "header":"FORGOT PASSWORD",
+      "label":"Please select how you want to receive reset link",
+      "labelEmail":"Enter your email address and we'll send you a link to reset your password",
+      "labelPhone":"Enter contact number and we'll send you a link to reset your password",
+      "errormessage":"Please check the email entered, we believe it has typos"
+   },
+   "SIGNUP_PAGE":{
+      "redirectionUrl":"/auth/create/",
+      "tncEnabled":"true",
+      "nationalityEnabled":"false",
+      "nationalityDefault":"Choose Nationality"
+   }
+}
